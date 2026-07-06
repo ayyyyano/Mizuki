@@ -198,7 +198,7 @@ export const friendsData: FriendItem[] = [
 	},
 	{
 		id: 24,
-		title: "Chanke’s Blog",
+		title: "Chanke's Blog",
 		imgurl: "https://avatars.githubusercontent.com/u/156302052?v=4&t=353a0fbd-a377-800e-be61-ffe39d927abb",
 		desc: "远来的朋友，愿你幸福。",
 		siteurl: "https://chanke-blog.pages.dev/",
@@ -251,6 +251,22 @@ export const friendsData: FriendItem[] = [
 		desc: "这是一个成分复杂的小站哦~",
 		siteurl: "https://www.yuanshen.dev/",
 		tags: ["Blog"],
+	},
+	{
+		id: 31,
+		title: "Hikaru Lab",
+		imgurl: "https://webp.isla.fan/avatar/hikaru-tomo.png",
+		desc: "即使是人造的记忆，也有它存在的价值",
+		siteurl: "https://www.mengxiblog.top/",
+		tags: ["等待添加"],
+	},
+	{
+		id: 32,
+		title: "NEKOTSUKI",
+		imgurl: "https://www.catsuki.cc/favicon/avatar-icon.jpg",
+		desc: "好奇猫a的博客",
+		siteurl: "https://www.catsuki.cc/",
+		tags: ["等待添加"],
 	},
 ];
 

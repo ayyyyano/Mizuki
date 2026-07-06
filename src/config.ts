@@ -26,7 +26,7 @@ const SITE_TIMEZONE = 8; //设置你的网站时区 from -12 to 12 default in UT
 export const siteConfig: SiteConfig = {
 	title: "Nekro's Blog",
 	subtitle: "日常记录 & 经验分享",
-	siteURL: "https://ayyyyano.github.io/", // 请替换为你的站点URL，以斜杠结尾
+	siteURL: "https://blog.nekro.top/", // 请替换为你的站点URL，以斜杠结尾
 	siteStartDate: "2026-06-29", // 站点开始运行日期，用于站点统计组件计算运行天数
 
 	timeZone: SITE_TIMEZONE,
@@ -472,13 +472,13 @@ export const shareConfig: ShareConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "", // 公告标题，填空使用i18n字符串Key.announcement
-	content: "站点迁移中, 后续更新将在此处发布。Notion 会继续保留一段时间: https://notion.nekro.top/", // 公告内容
-	closable: true, // 允许用户关闭公告
+	content: "如果你有一个网站或博客, 欢迎和我交换友链! 前往关于页面查看具体要求。", // 公告内容
+	closable: false, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
 		text: "了解更多", // 链接文本
 		url: "/about/", // 链接 URL
-		external: false, // 内部链接
+		external: true, // 内部链接
 	},
 };
 
