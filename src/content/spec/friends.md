@@ -13,7 +13,7 @@
 ## 本站信息
 
 ```
-itle: "Nekro’s SEKAI",  
+title: "Nekro’s SEKAI",  
 imgurl: "https://avatars.githubusercontent.com/u/90670998?v=4",  
 desc: "どんな結末がお望みだい？",  
 siteurl: "https://www.nekro.top/"  
