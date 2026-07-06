@@ -86,3 +86,18 @@ if (footerConfig.enable) {
 		</div>
 	</div>
 </div>
+
+<script is:inline>
+  (function loadBusuanzi() {
+    var valEl = document.getElementById('busuanzi_value_site_pv');
+    if (!valEl) return;
+    var cb = 'bsz' + Date.now();
+    window[cb] = function(data) {
+      if (data && data.site_pv) valEl.textContent = data.site_pv;
+    };
+    var s = document.createElement('script');
+    s.src = 'https://busuanzi.ibruce.info/busuanzi?jsonpCallback=' + cb;
+    s.onerror = function() { setTimeout(loadBusuanzi, 2000); };
+    document.head.appendChild(s);
+  })();
+</script>
