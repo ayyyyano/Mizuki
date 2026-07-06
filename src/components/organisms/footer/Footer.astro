@@ -86,3 +86,17 @@ if (footerConfig.enable) {
 		</div>
 	</div>
 </div>
+
+<script is:inline>
+  fetch('https://busuanzi.ibruce.info/busuanzi?jsonpCallback=BusuanziCallback')
+    .then(r => r.text())
+    .then(t => {
+      var json = t.replace(/^BusuanziCallback\(/, '').replace(/\)$/, '');
+      var data = JSON.parse(json);
+      var el = document.getElementById('busuanzi_value_site_pv');
+      if (el && data.site_pv) { el.textContent = data.site_pv; }
+      var container = document.getElementById('busuanzi_container_site_pv');
+      if (container) container.style.display = 'inline';
+    })
+    .catch(function() {});
+</script>
