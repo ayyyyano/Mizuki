@@ -472,12 +472,12 @@ export const shareConfig: ShareConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "", // 公告标题，填空使用i18n字符串Key.announcement
-	content: "如果你有一个网站或博客, 欢迎和我交换友链! 前往关于页面查看具体要求。", // 公告内容
+	content: "如果你有一个网站或博客, 欢迎和我交换友链! 前往友链页面查看具体要求。", // 公告内容
 	closable: false, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
 		text: "了解更多", // 链接文本
-		url: "/about/", // 链接 URL
+		url: "/friends/", // 链接 URL
 		external: true, // 内部链接
 	},
 };
