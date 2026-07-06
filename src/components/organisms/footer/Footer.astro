@@ -88,16 +88,17 @@ if (footerConfig.enable) {
 </div>
 
 <script is:inline>
-  (function loadBusuanzi() {
-    var valEl = document.getElementById('busuanzi_value_site_pv');
-    if (!valEl) return;
-    var cb = 'bsz' + Date.now();
-    window[cb] = function(data) {
-      if (data && data.site_pv) valEl.textContent = data.site_pv;
-    };
+  function fetchBusuanzi() {
     var s = document.createElement('script');
+    var cb = 'bsz' + Date.now();
+    window[cb] = function(d) {
+      var el = document.getElementById('busuanzi_value_site_pv');
+      if (el && d && d.site_pv) el.textContent = d.site_pv;
+    };
     s.src = 'https://busuanzi.ibruce.info/busuanzi?jsonpCallback=' + cb;
-    s.onerror = function() { setTimeout(loadBusuanzi, 2000); };
+    s.onerror = function() { setTimeout(fetchBusuanzi, 3000); };
     document.head.appendChild(s);
-  })();
+  }
+  fetchBusuanzi();
+  document.addEventListener('astro:page-load', fetchBusuanzi);
 </script>
