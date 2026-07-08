@@ -2,7 +2,7 @@
 title: 站点杂项改动备份
 published: 2026-04-09
 pinned: false
-description: 近期更新: 引入不蒜子计数器。
+description: "近期更新: 引入不蒜子计数器。"
 tags: [AIGC, 网站]
 category: 存档备份
 licenseName: "CC BY-NC-SA 4.0"
