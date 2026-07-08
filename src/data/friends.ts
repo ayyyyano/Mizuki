@@ -266,7 +266,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://www.catsuki.cc/favicon/avatar-icon.jpg",
 		desc: "好奇猫a的博客",
 		siteurl: "https://www.catsuki.cc/",
-		tags: ["等待添加"],
+		tags: ["Blog"],
 	},
 ];
 

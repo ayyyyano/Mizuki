@@ -1,7 +1,7 @@
 ## 申请友链
 
 - 如果你有一个网站或博客，欢迎和我交换友链！  
-- 请在阅读下面的要求后，发送带有你的网站信息的邮件到我的邮箱: i@nekro.top 或提交 PR。  
+- 请在阅读下面的要求后，发送带有你的网站信息的邮件到我的邮箱: [i@nekro.top](mailto:i@nekro.top) 或提交 [PR](https://github.com/ayyyyano/Mizuki/blob/master/src/data/friends.ts)。  
 
 ## 友链要求
 
