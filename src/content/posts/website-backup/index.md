@@ -2,20 +2,18 @@
 title: 站点杂项改动备份
 published: 2026-04-09
 pinned: false
-description: (AIGC / 未完待续) Gmeek footer 引入超链接 / NotionNext 接入 Waline 评论 / Mizuki 引入不蒜子计数器
-tags: [网站]
+description: 近期更新: 引入不蒜子计数器。
+tags: [AIGC, 网站]
 category: 存档备份
 licenseName: "CC BY-NC-SA 4.0"
 draft: false
 date: 2026-04-09
 pubDate: 2026-07-09
-permalink: "gmeek-footer"
+permalink: "website-backup"
 ---
 
 <aside>
-⚠️
-
-使用 AIGC 技术辅助写作
+⚠️ 使用 AIGC 技术辅助写作
 
 </aside>
 
