@@ -18,7 +18,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://mahiro.uk/content/nekoxun.jpg?t=583a0fbd-a377-83a0-a1ac-8100ac653245",
 		desc: "一个本科计算机学生",
 		siteurl: "https://mahiro.uk/",
-		tags: ["Blog"],
+		tags: ["推荐链接"],
 	},
 	{
 		id: 2,
@@ -26,7 +26,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://ciallovo.top/assets/pic/icon.png?t=351a0fbd-a377-80af-82d9-ec983d08a51e",
 		desc: "共寻繁星，逐光前行！",
 		siteurl: "https://ciallovo.top/",
-		tags: ["Blog", "Best Friends"],
+		tags: ["推荐链接", "好朋友们"],
 	},
 	{
 		id: 3,
@@ -34,7 +34,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://cdn.jsdelivr.net/gh/Eofs791/catpic@main/img/avatar.ico?t=353a0fbd-a377-806c-8b63-ca34292114ee",
 		desc: "见崎的猫箱",
 		siteurl: "https://catarium.me/",
-		tags: ["Blog", "Best Friends"],
+		tags: ["推荐链接", "好朋友们"],
 	},
 	{
 		id: 4,
@@ -42,7 +42,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://blog.byteloid.one/img/march7th.webp?t=357a0fbd-a377-8064-ba90-c3b8dae5139a",
 		desc: "相聚于此乐土。",
 		siteurl: "https://byteloid.one/",
-		tags: ["Blog"],
+		tags: ["推荐链接"],
 	},
 	{
 		id: 5,
@@ -50,7 +50,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://www.yukinon.cc/images/avatar.avif",
 		desc: "人間になりたいですわ。",
 		siteurl: "https://www.yukinon.cc/",
-		tags: ["Blog"],
+		tags: ["推荐链接"],
 	},
 	{
 		id: 6,
@@ -58,7 +58,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://amicors.cc/_astro/avatar.WKle1sZJ_22GWqu.webp?t=362a0fbd-a377-80e2-9c31-c1f83cb0d9d2",
 		desc: "喵喵喵喵喵?",
 		siteurl: "https://amicors.cc/",
-		tags: ["Blog"],
+		tags: ["推荐链接"],
 	},
 	{
 		id: 7,
@@ -66,7 +66,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://oss.qijieya.cn/1/hutao_hai.gif",
 		desc: "敬....不完美的明天。",
 		siteurl: "https://qijieya.cn/",
-		tags: ["Blog"],
+		tags: ["推荐链接"],
 	},
 	{
 		id: 8,
@@ -74,7 +74,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://moran-neko.moe/img/mortis.ico",
 		desc: "一个野生的互联网存档点",
 		siteurl: "https://moran-neko.moe/",
-		tags: ["Blog"],
+		tags: ["推荐链接"],
 	},
 	{
 		id: 9,
@@ -82,7 +82,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://www.khyan.top/favicon.png?t=353a0fbd-a377-8080-b5de-c752417ff6ae",
 		desc: "生命是灰色的，理论之树常青。",
 		siteurl: "https://cloveryan.com/",
-		tags: ["Blog"],
+		tags: ["推荐链接"],
 	},
 	{
 		id: 10,
@@ -90,7 +90,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://alonesky.moe/avatar.jpg?t=369a0fbd-a377-80e5-827d-e7402c3bb297",
 		desc: "晚安 明天不会更好",
 		siteurl: "https://alonesky.moe/",
-		tags: ["Blog"],
+		tags: ["推荐链接"],
 	},
 	{
 		id: 11,
@@ -98,7 +98,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://r2.kuriyona.com/img/avatar/Avatar_256.png?t=370a0fbd-a377-8082-80a0-c1c2cf9fccaa",
 		desc: "「一个可爱的女孩子，18 岁中国准大学生，宅，亚二次元，MtF 和兴趣使然的开发者」",
 		siteurl: "https://kuriyona.com/",
-		tags: ["Blog"],
+		tags: ["推荐链接"],
 	},
 	{
 		id: 12,
@@ -106,7 +106,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://orangestd.cn/images/avatar.png",
 		desc: "Enjoy freedom.",
 		siteurl: "https://orangestd.cn/",
-		tags: ["Blog"],
+		tags: ["推荐链接"],
 	},
 	{
 		id: 13,
@@ -114,7 +114,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://api.fmcf.cc/api/v3/objects/avatar/q4yxd5smqxro8lfm69.png",
 		desc: "代码与诗的世界",
 		siteurl: "https://fmcf.cc/",
-		tags: ["Blog"],
+		tags: ["推荐链接"],
 	},
 	{
 		id: 14,
@@ -122,7 +122,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://blog.1007777.xyz/img/avatar.jpg",
 		desc: "現實與夢想只差一步之遙",
 		siteurl: "https://blog.1007777.xyz/",
-		tags: ["Blog", "Best Friends"],
+		tags: ["推荐链接", "好朋友们"],
 	},
 	{
 		id: 15,
@@ -130,7 +130,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://shiaupa.top/Avatar.png",
 		desc: "晓怕的个人网站",
 		siteurl: "https://shiaupa.top/",
-		tags: ["Blog"],
+		tags: ["推荐链接"],
 	},
 	{
 		id: 16,
@@ -138,7 +138,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://launchpadx.top/avatar.jpg",
 		desc: "用代码改变世界",
 		siteurl: "https://launchpadx.top/",
-		tags: ["Blog"],
+		tags: ["推荐链接"],
 	},
 	{
 		id: 17,
@@ -146,7 +146,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://yatori.cc/assets/me-Bq6z1W4B.jpeg",
 		desc: "Always be brave to sleep Dream.",
 		siteurl: "https://yatori.cc/",
-		tags: ["Blog"],
+		tags: ["推荐链接"],
 	},
 	{
 		id: 18,
@@ -154,7 +154,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://cynosura.one/img/avatar.webp",
 		desc: "Trying to light up the dark.",
 		siteurl: "https://cynosura.one/",
-		tags: ["Blog", "Best Friends"],
+		tags: ["推荐链接", "好朋友们"],
 	},
 	{
 		id: 19,
@@ -162,7 +162,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://www.xunyishi.com/avatar.jpg",
 		desc: "「願世界與你溫柔相待」",
 		siteurl: "https://www.xunyishi.com/",
-		tags: ["Blog"],
+		tags: ["推荐链接"],
 	},
 	{
 		id: 20,
@@ -170,7 +170,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://cdn.jsdelivr.net/gh/XFJ-YYQF/Picture@main/img/home192.webp",
 		desc: "我永远喜欢哈次捏米库！！！",
 		siteurl: "https://minecraftxfj.top/",
-		tags: ["Blog"],
+		tags: ["推荐链接"],
 	},
 	{
 		id: 21,
@@ -178,7 +178,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://www.hk256.top/avatar/avatar256.jpg",
 		desc: "播种与期待之歌，亦是收获与欢愉之歌。",
 		siteurl: "https://www.hk256.top/",
-		tags: ["Blog"],
+		tags: ["推荐链接"],
 	},
 	{
 		id: 22,
@@ -186,7 +186,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://rhen.cloud/avatar-1.webp",
 		desc: "趁世界还未重启之前 约一次爱恋",
 		siteurl: "https://rhen.cloud/",
-		tags: ["Blog"],
+		tags: ["推荐链接"],
 	},
 	{
 		id: 23,
@@ -194,7 +194,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://mihari.cyou/images/favicon.ico",
 		desc: "你好呀～这里是 阿弃Akiramenai (一只可爱的猫娘?",
 		siteurl: "https://mihari.cyou/",
-		tags: ["Blog", "Best Friends"],
+		tags: ["推荐链接", "好朋友们"],
 	},
 	{
 		id: 24,
@@ -202,7 +202,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://avatars.githubusercontent.com/u/156302052?v=4&t=353a0fbd-a377-800e-be61-ffe39d927abb",
 		desc: "远来的朋友，愿你幸福。",
 		siteurl: "https://chanke-blog.pages.dev/",
-		tags: ["Pin"],
+		tags: ["单向链接"],
 	},
 	{
 		id: 25,
@@ -210,7 +210,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://aira.cafe/_vercel/image?url=%2Fimages%2Favatar.webp&w=640&q=100&t=354a0fbd-a377-802a-9be3-c4e0e67459f1",
 		desc: "Kind and Kawaii, Forever!~",
 		siteurl: "https://aira.cafe/",
-		tags: ["Pin"],
+		tags: ["单向链接"],
 	},
 	{
 		id: 26,
@@ -250,7 +250,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://www.yuanshen.dev/img/nahida.png",
 		desc: "这是一个成分复杂的小站哦~",
 		siteurl: "https://www.yuanshen.dev/",
-		tags: ["Blog"],
+		tags: ["推荐链接"],
 	},
 	{
 		id: 31,
@@ -258,7 +258,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://webp.isla.fan/avatar/hikaru-tomo.png",
 		desc: "即使是人造的记忆，也有它存在的价值",
 		siteurl: "https://www.mengxiblog.top/",
-		tags: ["等待添加"],
+		tags: ["推荐链接"],
 	},
 	{
 		id: 32,
@@ -266,7 +266,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://www.catsuki.cc/favicon/avatar-icon.jpg",
 		desc: "好奇猫a的博客",
 		siteurl: "https://www.catsuki.cc/",
-		tags: ["Blog"],
+		tags: ["推荐链接"],
 	},
 ];
 
