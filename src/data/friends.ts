@@ -268,6 +268,22 @@ export const friendsData: FriendItem[] = [
 		siteurl: "https://www.catsuki.cc/",
 		tags: ["推荐链接"],
 	},
+	{
+		id: 33,
+		title: "for_the_zero的小站",
+		imgurl: "https://ftz.is-a.dev/assets/intro/avatar.png",
+		desc: "想要成为一个有趣的、厉害的、快乐的、善良的、……能被你记住的人",
+		siteurl: "https://ftz.is-a.dev/",
+		tags: ["等待添加"],
+	},
+	{
+		id: 34,
+		title: "池鱼小栈",
+		imgurl: "https://chiyu.it/images/logo/logo.webp",
+		desc: "｜д•´)!!",
+		siteurl: "https://chiyu.it/",
+		tags: ["等待添加"],
+	},
 ];
 
 // 获取所有友情链接数据
