@@ -276,14 +276,6 @@ export const friendsData: FriendItem[] = [
 		siteurl: "https://ftz.is-a.dev/",
 		tags: ["推荐链接"],
 	},
-	{
-		id: 34,
-		title: "池鱼小栈",
-		imgurl: "https://chiyu.it/images/logo/logo.webp",
-		desc: "｜д•´)!!",
-		siteurl: "https://chiyu.it/",
-		tags: ["等待添加"],
-	},
 ];
 
 // 获取所有友情链接数据
