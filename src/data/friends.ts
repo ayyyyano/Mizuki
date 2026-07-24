@@ -276,6 +276,14 @@ export const friendsData: FriendItem[] = [
 		siteurl: "https://ftz.is-a.dev/",
 		tags: ["推荐链接"],
 	},
+	{
+		id: 34,
+		title: "爱吃可比克的鲸鱼",
+		imgurl: "https://zxs24719.codeberg.page/avatar.jpg",
+		desc: "自由软件爱好者",
+		siteurl: "https://zxs24719.codeberg.page/blog/",
+		tags: ["推荐链接"],
+	},
 ];
 
 // 获取所有友情链接数据
