@@ -35,21 +35,10 @@ permalink: "13t-pixelos1"
 
 ## 解锁 Bootloader
 
-<aside>
-📐
+> 📐 若你的设备当前处于 ColorOS 16 及以上版本，请先通过深度测试方可进行下面的步骤。深度测试安装包可在[链接](https://bbsstatic.oneplus.com/public/apk/%E6%B7%B1%E5%BA%A6%E6%B5%8B%E8%AF%95.apk)下载。
+> 也可以选择前往售后降级，携带包装盒或购买凭证前往降级 ColorOS 15 不会收取任何费用。我便是直接到售后降级至 ColorOS 15 了。
 
-若你的设备当前处于 ColorOS 16 及以上版本，请先通过深度测试方可进行下面的步骤。深度测试安装包可在[链接](https://bbsstatic.oneplus.com/public/apk/%E6%B7%B1%E5%BA%A6%E6%B5%8B%E8%AF%95.apk)下载。
-
-也可以选择前往售后降级，携带包装盒或购买凭证前往降级 ColorOS 15 不会收取任何费用。我便是直接到售后降级至 ColorOS 15 了。
-
-</aside>
-
-<aside>
-❌
-
-解锁 Bootloader 会清空设备所有数据，请自行做好数据备份。
-
-</aside>
+> ❌ 解锁 Bootloader 会清空设备所有数据，请自行做好数据备份。
 
 首先前往 `设置 > 关于本机 > 版本信息` 连续点击 7 次 `版本号` 以启用开发者选项。
 
@@ -63,12 +52,7 @@ permalink: "13t-pixelos1"
 
 ## 提取并刷入修改后的 init_boot
 
-<aside>
-⚠️
-
-注意: init_boot 文件必须和当前手机的系统版本相对应，否则不开机。
-
-</aside>
+> ⚠️ 注意: init_boot 文件必须和当前手机的系统版本相对应，否则不开机。
 
 若您当前的系统版本高于 `16.0.5.701`，请在 [大侠阿木云盘](https://yun.daxiaamu.com/) 下载您当前对应系统版本的完整包后，使用手机的 [MT管理器](https://mt2.cn/) 打开完整包的 `payload.bin`，即可看到 `init_boot.img`，将其提取到手机内置存储。
 
@@ -86,21 +70,11 @@ permalink: "13t-pixelos1"
 
 刷入 init_boot.img
 
-<aside>
-⚠️
-
-检查设备是否熔断 9008: 按上文修补 init_boot 后，下载安装 [OnePlus ARB Checker](https://f-droid.org/packages/com.bartixxx.oneplusarbchecker/)，并授予 Root 权限。打开便可以自行查询 9008 熔断状态。如图所示即为已熔断的设备，若你需要保有 9008 授权刷入 PixelOS，请在酷安自行搜索保 9008 升级的办法并升级至 16.0.5.701。
-
-</aside>
+> ⚠️ 检查设备是否熔断 9008: 按上文修补 init_boot 后，下载安装 [OnePlus ARB Checker](https://f-droid.org/packages/com.bartixxx.oneplusarbchecker/)，并授予 Root 权限。打开便可以自行查询 9008 熔断状态。如图所示即为已熔断的设备，若你需要保有 9008 授权刷入 PixelOS，请在酷安自行搜索保 9008 升级的办法并升级至 16.0.5.701。
 
 ## 备份字库
 
-<aside>
-ℹ️
-
-这不是一个必备操作，但也许能够在关键时候救命。前面 Root 设备主要也是为了这一步。
-
-</aside>
+> ℹ️ 这不是一个必备操作，但也许能够在关键时候救命。前面 Root 设备主要也是为了这一步。
 
 在手机上下载并安装多系统工具箱，并使用管理器为其授予 Root 权限。
 
@@ -118,19 +92,9 @@ permalink: "13t-pixelos1"
 
 ## 刷入 TWRP
 
-<aside>
-😀
+> 😀 有大佬专门为 13T 编译了 TWRP，实测可以正常使用。文件已上传在文章开头的云盘链接。
 
-有大佬专门为 13T 编译了 TWRP，实测可以正常使用。文件已上传在文章开头的云盘链接。
-
-</aside>
-
-<aside>
-🫥
-
-我将使用 TWRP 进行 ADB Sideload 线刷。如果使用 PixelOS 的 Recovery 会出现签名问题导致无法刷入，且重启后会进入 900E 模式，非必要请勿尝试。
-
-</aside>
+> 🫥 我将使用 TWRP 进行 ADB Sideload 线刷。如果使用 PixelOS 的 Recovery 会出现签名问题导致无法刷入，且重启后会进入 900E 模式，非必要请勿尝试。
 
 将手机重启至 Fastboot 模式。电脑打开柚坛工具箱，检查设备连接状态。正常连接设备后进入 `基本刷入 > 刷入 Recovery`，在选择 Recovery 处选择 TWRP 的 img，刷入即可。
 
@@ -146,12 +110,7 @@ permalink: "13t-pixelos1"
 
 ## 进入 TWRP 刷包
 
-<aside>
-⚠️
-
-此步为关键步骤，请勿大意。
-
-</aside>
+> ⚠️ 此步为关键步骤，请勿大意。
 
 在 TWRP 中，依次进入左下角 `高级 > ADB Sideload`，并勾选清除 Dalvik Cache/Cache，滑动进入 ADB Sideload 模式。
 

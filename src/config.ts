@@ -162,9 +162,7 @@ export const siteConfig: SiteConfig = {
 			enable: true, // 在主页显示自定义文本
 			title: "Welcome to Nekro's Blog !", // 主页横幅主标题
 
-			subtitle: [
-				"谢谢你在人群中找到我。",
-			],
+			subtitle: ["谢谢你在人群中找到我。"],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
 
@@ -270,16 +268,16 @@ export const navBarConfig: NavBarConfig = {
 			icon: "material-symbols:link",
 			children: [
 				{
-					name: "Bilibili",
-					url: "https://space.bilibili.com/501335897",
+					name: "提问箱",
+					url: "https://askbox.nekro.top/",
 					external: true,
-					icon: "mingcute:bilibili-fill",
+					icon: "mingcute:question-fill",
 				},
-                {
-					name: "Bluesky",
-					url: "https://bsky.app/profile/nekro.top",
+				{
+					name: "似了吗",
+					url: "https://alive.nekro.top/",
 					external: true,
-					icon: "mingcute:bluesky-social-fill",
+					icon: "mingcute:eye-fill",
 				},
 				{
 					name: "Google 镜像",
@@ -340,10 +338,10 @@ export const navBarConfig: NavBarConfig = {
 			icon: "material-symbols:more-horiz",
 			children: [
 				{
-			        name: "友链",
-		    	    url: "/friends/",
-		        	icon: "material-symbols:group",
-		        },
+					name: "友链",
+					url: "/friends/",
+					icon: "material-symbols:group",
+				},
 				{
 					name: "项目",
 					url: "/projects/",
@@ -472,7 +470,8 @@ export const shareConfig: ShareConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "", // 公告标题，填空使用i18n字符串Key.announcement
-	content: "如果你有一个网站或博客, 欢迎和我交换友链! 前往友链页面查看具体要求。", // 公告内容
+	content:
+		"如果你有一个网站或博客, 欢迎和我交换友链! 前往友链页面查看具体要求。", // 公告内容
 	closable: false, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
