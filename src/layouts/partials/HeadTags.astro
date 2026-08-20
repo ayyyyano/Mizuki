@@ -110,8 +110,13 @@ const favicons: Favicon[] =
 		pageScaling: siteConfig.pageScaling,
 	}}
 >
-	// Load the theme from local storage
-	const theme = localStorage.getItem("theme") || DEFAULT_THEME;
+	// 优先使用用户手动选择的主题，否则跟随浏览器/系统偏好
+	const storedTheme = localStorage.getItem("theme");
+	const theme =
+		storedTheme ||
+		(window.matchMedia?.("(prefers-color-scheme: dark)").matches
+			? DARK_MODE
+			: DEFAULT_THEME);
 	let isDark = false;
 	switch (theme) {
 		case LIGHT_MODE:
@@ -146,7 +151,11 @@ const favicons: Favicon[] =
 
 	// 自动缩放逻辑 (Moved from MainGridLayout to here for earlier execution)
 	(function () {
-		if (pageScaling && pageScaling.enable && !window.__pageScalingInitialized) {
+		if (
+			pageScaling &&
+			pageScaling.enable &&
+			!window.__pageScalingInitialized
+		) {
 			window.__pageScalingInitialized = true;
 			function adjustPageScale() {
 				const isTouch =

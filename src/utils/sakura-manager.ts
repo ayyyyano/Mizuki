@@ -210,7 +210,7 @@ export class SakuraManager {
 
 		// 创建图片对象
 		this.img = new Image();
-		this.img.src = "/sakura.png"; // 使用樱花图片
+		this.img.src = "/sakura.webp"; // 使用樱花图片
 
 		// 等待图片加载完成
 		await new Promise<void>((resolve, reject) => {
@@ -376,14 +376,16 @@ export class SakuraManager {
 let globalSakuraManager: SakuraManager | null = null;
 
 // 初始化樱花特效
-export function initSakura(config: SakuraConfig): void {
+export function initSakura(config: SakuraConfig): Promise<void> {
 	if (globalSakuraManager) {
 		globalSakuraManager.updateConfig(config);
+		return Promise.resolve();
 	} else {
 		globalSakuraManager = new SakuraManager(config);
 		if (config.enable) {
-			globalSakuraManager.init();
+			return globalSakuraManager.init();
 		}
+		return Promise.resolve();
 	}
 }
 

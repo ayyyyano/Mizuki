@@ -17,7 +17,7 @@ export class SakuraEffectHandler {
 	/**
 	 * 初始化 Sakura 特效
 	 */
-	init(widgetConfigs: any): void {
+	async init(widgetConfigs: any): Promise<void> {
 		const sakuraConfig = widgetConfigs?.sakura;
 		if (!sakuraConfig || !sakuraConfig.enable) {
 			return;
@@ -29,7 +29,7 @@ export class SakuraEffectHandler {
 		}
 
 		this.config = sakuraConfig;
-		initSakura(sakuraConfig);
+		await initSakura(sakuraConfig);
 		this.initialized = true;
 		(window as any).sakuraInitialized = true;
 	}
@@ -67,7 +67,9 @@ export function getSakuraEffectHandler(): SakuraEffectHandler {
  */
 export function setupSakura(widgetConfigs: any): void {
 	const handler = getSakuraEffectHandler();
-	handler.init(widgetConfigs);
+	void handler.init(widgetConfigs).catch((error) => {
+		console.error("Failed to initialize Sakura effect:", error);
+	});
 }
 
 /**
