@@ -228,7 +228,7 @@ export const friendsData: FriendItem[] = [
 		siteurl: "https://blog.mengguyi.com/",
 		tags: ["等待添加"],
 	},
-    {
+	{
 		id: 28,
 		title: "清凤小栈",
 		imgurl: "https://清凤.fun/images/logo/logo.webp",
@@ -283,6 +283,46 @@ export const friendsData: FriendItem[] = [
 		desc: "自由软件爱好者",
 		siteurl: "https://zxs24719.codeberg.page/blog/",
 		tags: ["推荐链接"],
+	},
+	{
+		id: 35,
+		title: "小苹果工作室",
+		imgurl: "https://www.littleapple.top/favicon.ico",
+		desc: "云、网站托管、视频登记、下载站、帮助文档和Windows系统以及效果音",
+		siteurl: "https://www.littleapple.top/",
+		tags: ["等待添加"],
+	},
+	{
+		id: 36,
+		title: "数字田园的悠然漫步",
+		imgurl: "https://blog.gardenwalk.moe/wp-content/uploads/1737602734-icon.png",
+		desc: "采菊东篱下，悠然见南山。",
+		siteurl: "https://blog.gardenwalk.moe/",
+		tags: ["等待添加"],
+	},
+	{
+		id: 37,
+		title: "Hexzii的小站",
+		imgurl: "https://nichijou.moe/avatar.png",
+		desc: "咕咕咕咕咕咕咕咕咕",
+		siteurl: "https://www.nichijou.moe/",
+		tags: ["等待添加"],
+	},
+	{
+		id: 38,
+		title: "bth95147",
+		imgurl: "https://bth95147.github.io/favicon/favicon.ico",
+		desc: "BtH",
+		siteurl: "https://bth95147.github.io/",
+		tags: ["等待添加"],
+	},
+	{
+		id: 39,
+		title: "吐槽大王部落格",
+		imgurl: "https://avatars.githubusercontent.com/u/8687182?v=4&s=200",
+		desc: "正在学习接受不完美的世界",
+		siteurl: "https://www.tcdw.net/",
+		tags: ["等待添加"],
 	},
 ];
 
