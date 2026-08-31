@@ -324,6 +324,22 @@ export const friendsData: FriendItem[] = [
 		siteurl: "https://www.tcdw.net/",
 		tags: ["等待添加"],
 	},
+	{
+		id: 40,
+		title: "柠萌の部落阁",
+		imgurl: "https://www.lemonbuluo.eu.org/img/lemonsuka.webp",
+		desc: "一个闲聊萌新动漫技术交流站",
+		siteurl: "https://www.lemonbuluo.eu.org/",
+		tags: ["等待添加"],
+	},
+	{
+		id: 41,
+		title: "秋澪的博客",
+		imgurl: "https://img.akimio.top/avatar/akimio.png",
+		desc: "一只喜欢七彩球的枯叶蝶",
+		siteurl: "https://blog.akimio.top/",
+		tags: ["等待添加"],
+	},
 ];
 
 // 获取所有友情链接数据

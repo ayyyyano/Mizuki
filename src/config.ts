@@ -330,6 +330,12 @@ export const navBarConfig: NavBarConfig = {
 					url: "/about/",
 					icon: "material-symbols:info",
 				},
+				{
+					name: "支持我",
+					url: "https://pay.nekro.top/",
+					icon: "material-symbols:favorite",
+					external: true,
+				},
 			],
 		},
 		{
@@ -471,13 +477,13 @@ export const shareConfig: ShareConfig = {
 export const announcementConfig: AnnouncementConfig = {
 	title: "", // 公告标题，填空使用i18n字符串Key.announcement
 	content:
-		"如果你有一个网站或博客, 欢迎和我交换友链! 前往友链页面查看具体要求。", // 公告内容
+		"如果本站内容对你有所帮助，欢迎自愿支持我的创作。此外，我正在入驻爱发电。", // 公告内容
 	closable: false, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
-		text: "了解更多", // 链接文本
-		url: "/friends/", // 链接 URL
-		external: true, // 内部链接
+		text: "点此支持", // 链接文本
+		url: "https://pay.nekro.top/", // 链接 URL
+		external: false, // 内部链接
 	},
 };
 
