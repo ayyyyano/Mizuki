@@ -306,7 +306,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://nichijou.moe/avatar.png",
 		desc: "咕咕咕咕咕咕咕咕咕",
 		siteurl: "https://www.nichijou.moe/",
-		tags: ["等待添加"],
+		tags: ["推荐链接"],
 	},
 	{
 		id: 38,
@@ -322,7 +322,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://avatars.githubusercontent.com/u/8687182?v=4&s=200",
 		desc: "正在学习接受不完美的世界",
 		siteurl: "https://www.tcdw.net/",
-		tags: ["等待添加"],
+		tags: ["推荐链接"],
 	},
 	{
 		id: 40,
