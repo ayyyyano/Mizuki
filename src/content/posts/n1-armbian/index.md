@@ -1,5 +1,5 @@
 ---
-title: 基于第三方系统的斐讯 N1 Armbian 无头安装实测: 无需显示器与有线网络
+title: "基于第三方系统的斐讯 N1 Armbian 无头安装实测：无需显示器与有线网络"
 published: 2026-09-11
 pinned: false
 description: 前提：N1 已运行支持在启动阶段切换至 USB 启动的修改版 Android 固件。
