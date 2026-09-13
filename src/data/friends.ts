@@ -354,7 +354,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://blog.kisechan.space/favicon.ico",
 		desc: "Non est ad astra mollis e terris via.",
 		siteurl: "https://blog.kisechan.space/",
-		tags: ["等待添加"],
+		tags: ["推荐链接"],
 	},
 	{
 		id: 44,
@@ -370,7 +370,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://secure.gravatar.com/avatar/66343ba343f045271824d17bcb7f666c",
 		desc: "探索赛博烹饪里的魔法与艺术",
 		siteurl: "https://www.aoi-recipes.site/",
-		tags: ["等待添加"],
+		tags: ["推荐链接"],
 	},
 	{
 		id: 46,
@@ -378,7 +378,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://media.cc01cc.cn/blog/avatar.webp",
 		desc: "探索 & 创造",
 		siteurl: "https://blog.cc01cc.cn",
-		tags: ["等待添加"],
+		tags: ["推荐链接"],
 	},
 ];
 
