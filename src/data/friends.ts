@@ -380,6 +380,22 @@ export const friendsData: FriendItem[] = [
 		siteurl: "https://blog.cc01cc.cn",
 		tags: ["推荐链接"],
 	},
+	{
+		id: 47,
+		title: "深柠网络",
+		imgurl: "https://avatars.githubusercontent.com/u/165035744?v=4&s=200",
+		desc: "深柠的个人站 技术心得 日常生活......",
+		siteurl: "https://www.deeplemon.win/",
+		tags: ["等待添加"],
+	},
+	{
+		id: 48,
+		title: "250king",
+		imgurl: "https://q1.qlogo.cn/g?b=qq&nk=2789260300&s=0",
+		desc: "耀の小站",
+		siteurl: "https://250king.top/",
+		tags: ["等待添加"],
+	},
 ];
 
 // 获取所有友情链接数据
