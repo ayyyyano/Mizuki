@@ -175,9 +175,9 @@ export const friendsData: FriendItem[] = [
 	{
 		id: 21,
 		title: "白熊の小窝",
-		imgurl: "https://www.hk256.top/avatar/avatar256.jpg",
+		imgurl: "https://www.hk256.dev/assets/images/avatar-256.png",
 		desc: "播种与期待之歌，亦是收获与欢愉之歌。",
-		siteurl: "https://www.hk256.top/",
+		siteurl: "https://www.hk256.dev/",
 		tags: ["推荐链接"],
 	},
 	{
@@ -234,7 +234,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://清凤.fun/images/logo/logo.webp",
 		desc: "喜欢捣鼓点技术和哲学",
 		siteurl: "https://清凤.fun/",
-		tags: ["等待添加"],
+		tags: ["单向链接"],
 	},
 	{
 		id: 29,
@@ -330,7 +330,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://www.lemonbuluo.eu.org/img/lemonsuka.webp",
 		desc: "一个闲聊萌新动漫技术交流站",
 		siteurl: "https://www.lemonbuluo.eu.org/",
-		tags: ["等待添加"],
+		tags: ["单向链接"],
 	},
 	{
 		id: 41,
@@ -386,7 +386,7 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://avatars.githubusercontent.com/u/165035744?v=4&s=200",
 		desc: "深柠的个人站 技术心得 日常生活......",
 		siteurl: "https://www.deeplemon.win/",
-		tags: ["等待添加"],
+		tags: ["推荐链接"],
 	},
 	{
 		id: 48,
@@ -394,6 +394,14 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://q1.qlogo.cn/g?b=qq&nk=2789260300&s=0",
 		desc: "耀の小站",
 		siteurl: "https://250king.top/",
+		tags: ["等待添加"],
+	},
+	{
+		id: 49,
+		title: "心象蜃気楼",
+		imgurl: "https://oss.yayoi.love/blog/image/20260904212338976.png",
+		desc: "心を透写した世界で、僕らは居場所を探した",
+		siteurl: "https://blog.yayoi.love/",
 		tags: ["等待添加"],
 	},
 ];
