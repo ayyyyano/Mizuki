@@ -404,6 +404,14 @@ export const friendsData: FriendItem[] = [
 		siteurl: "https://blog.yayoi.love/",
 		tags: ["等待添加"],
 	},
+	{
+		id: 50,
+		title: "Fuhao574",
+		imgurl: "https://avatars.githubusercontent.com/u/220566987?v=4",
+		desc: "这个世界不缺大人",
+		siteurl: "https://www.fuhao574.cyou/",
+		tags: ["推荐链接"],
+	},
 ];
 
 // 获取所有友情链接数据
