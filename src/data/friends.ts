@@ -412,6 +412,14 @@ export const friendsData: FriendItem[] = [
 		siteurl: "https://www.fuhao574.cyou/",
 		tags: ["推荐链接"],
 	},
+	{
+		id: 51,
+		title: "梧桐雨の博客",
+		imgurl: "https://www.wutongyu.site/avatar.webp",
+		desc: "关于我的代码和生活",
+		siteurl: "https://www.wutongyu.site/",
+		tags: ["推荐链接"],
+	},
 ];
 
 // 获取所有友情链接数据
