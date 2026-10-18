@@ -169,7 +169,7 @@ export const friendsData: FriendItem[] = [
 		title: "XFJの主页",
 		imgurl: "https://cdn.jsdelivr.net/gh/XFJ-YYQF/Picture@main/img/home192.webp",
 		desc: "我永远喜欢哈次捏米库！！！",
-		siteurl: "https://minecraftxfj.top/",
+		siteurl: "https://sakurasnow.cn/",
 		tags: ["推荐链接"],
 	},
 	{
@@ -222,14 +222,6 @@ export const friendsData: FriendItem[] = [
 	},
 	{
 		id: 27,
-		title: "孟古一的博客",
-		imgurl: "https://blog.mengguyi.com/logo.avif?t=353a0fbd-a377-8059-9d13-fd400306765d",
-		desc: "世界上没有绝对的正义，只有不同的观点和立场。",
-		siteurl: "https://blog.mengguyi.com/",
-		tags: ["等待添加"],
-	},
-	{
-		id: 28,
 		title: "清凤小栈",
 		imgurl: "https://清凤.fun/images/logo/logo.webp",
 		desc: "喜欢捣鼓点技术和哲学",
@@ -237,15 +229,7 @@ export const friendsData: FriendItem[] = [
 		tags: ["单向链接"],
 	},
 	{
-		id: 29,
-		title: "Asutaka的小站",
-		imgurl: "https://www.asutaka.ink/image/head.png",
-		desc: "黑夜给了我一双黑色眼睛，但我却用它去寻找光明",
-		siteurl: "https://www.asutaka.ink/",
-		tags: ["等待添加"],
-	},
-	{
-		id: 30,
+		id: 28,
 		title: "YuanRetro",
 		imgurl: "https://www.yuanshen.dev/img/nahida.png",
 		desc: "这是一个成分复杂的小站哦~",
@@ -253,7 +237,7 @@ export const friendsData: FriendItem[] = [
 		tags: ["推荐链接"],
 	},
 	{
-		id: 31,
+		id: 29,
 		title: "Hikaru Lab",
 		imgurl: "https://webp.isla.fan/avatar/hikaru-tomo.png",
 		desc: "即使是人造的记忆，也有它存在的价值",
@@ -261,7 +245,7 @@ export const friendsData: FriendItem[] = [
 		tags: ["推荐链接"],
 	},
 	{
-		id: 32,
+		id: 30,
 		title: "NEKOTSUKI",
 		imgurl: "https://www.catsuki.cc/favicon/avatar-icon.jpg",
 		desc: "好奇猫a的博客",
@@ -269,7 +253,7 @@ export const friendsData: FriendItem[] = [
 		tags: ["推荐链接"],
 	},
 	{
-		id: 33,
+		id: 31,
 		title: "for_the_zero的小站",
 		imgurl: "https://ftz.is-a.dev/assets/intro/avatar.png",
 		desc: "想要成为一个有趣的、厉害的、快乐的、善良的、……能被你记住的人",
@@ -277,7 +261,7 @@ export const friendsData: FriendItem[] = [
 		tags: ["推荐链接"],
 	},
 	{
-		id: 34,
+		id: 32,
 		title: "爱吃可比克的鲸鱼",
 		imgurl: "https://zxs24719.codeberg.page/avatar.jpg",
 		desc: "自由软件爱好者",
@@ -285,7 +269,7 @@ export const friendsData: FriendItem[] = [
 		tags: ["推荐链接"],
 	},
 	{
-		id: 35,
+		id: 33,
 		title: "小苹果工作室",
 		imgurl: "https://www.littleapple.top/favicon.ico",
 		desc: "云、网站托管、视频登记、下载站、帮助文档和Windows系统以及效果音",
@@ -293,7 +277,7 @@ export const friendsData: FriendItem[] = [
 		tags: ["推荐链接"],
 	},
 	{
-		id: 36,
+		id: 34,
 		title: "数字田园的悠然漫步",
 		imgurl: "https://blog.gardenwalk.moe/wp-content/uploads/1737602734-icon.png",
 		desc: "采菊东篱下，悠然见南山。",
@@ -301,7 +285,7 @@ export const friendsData: FriendItem[] = [
 		tags: ["推荐链接"],
 	},
 	{
-		id: 37,
+		id: 35,
 		title: "Hexzii的小站",
 		imgurl: "https://nichijou.moe/avatar.png",
 		desc: "咕咕咕咕咕咕咕咕咕",
@@ -309,15 +293,7 @@ export const friendsData: FriendItem[] = [
 		tags: ["推荐链接"],
 	},
 	{
-		id: 38,
-		title: "bth95147",
-		imgurl: "https://bth95147.github.io/favicon/favicon.ico",
-		desc: "BtH",
-		siteurl: "https://bth95147.github.io/",
-		tags: ["等待添加"],
-	},
-	{
-		id: 39,
+		id: 36,
 		title: "吐槽大王部落格",
 		imgurl: "https://avatars.githubusercontent.com/u/8687182?v=4&s=200",
 		desc: "正在学习接受不完美的世界",
@@ -325,7 +301,7 @@ export const friendsData: FriendItem[] = [
 		tags: ["推荐链接"],
 	},
 	{
-		id: 40,
+		id: 37,
 		title: "柠萌の部落阁",
 		imgurl: "https://www.lemonbuluo.eu.org/img/lemonsuka.webp",
 		desc: "一个闲聊萌新动漫技术交流站",
@@ -333,7 +309,7 @@ export const friendsData: FriendItem[] = [
 		tags: ["单向链接"],
 	},
 	{
-		id: 41,
+		id: 38,
 		title: "秋澪的博客",
 		imgurl: "https://img.akimio.top/avatar/akimio.png",
 		desc: "一只喜欢七彩球的枯叶蝶",
@@ -341,15 +317,15 @@ export const friendsData: FriendItem[] = [
 		tags: ["等待添加"],
 	},
 	{
-		id: 42,
+		id: 39,
 		title: "cosine = 余弦の博客",
 		imgurl: "https://blog.cosine.ren/img/avatar.webp",
 		desc: "FE / ACG / 手工 / 深色模式强迫症 / INFP / 兴趣广泛养两只猫的老宅女 / remote",
 		siteurl: "https://blog.cosine.ren/",
-		tags: ["等待添加"],
+		tags: ["推荐链接"],
 	},
 	{
-		id: 43,
+		id: 40,
 		title: "Kisechan 的博客！",
 		imgurl: "https://blog.kisechan.space/favicon.ico",
 		desc: "Non est ad astra mollis e terris via.",
@@ -357,7 +333,7 @@ export const friendsData: FriendItem[] = [
 		tags: ["推荐链接"],
 	},
 	{
-		id: 44,
+		id: 41,
 		title: "拾柒",
 		imgurl: "https://17yizuka.com/api/v1/friend/image",
 		desc: "矮纸斜行闲作草，晴窗细乳细分茶",
@@ -365,7 +341,7 @@ export const friendsData: FriendItem[] = [
 		tags: ["推荐链接"],
 	},
 	{
-		id: 45,
+		id: 42,
 		title: "aoi的菜谱小站",
 		imgurl: "https://secure.gravatar.com/avatar/66343ba343f045271824d17bcb7f666c",
 		desc: "探索赛博烹饪里的魔法与艺术",
@@ -373,7 +349,7 @@ export const friendsData: FriendItem[] = [
 		tags: ["推荐链接"],
 	},
 	{
-		id: 46,
+		id: 43,
 		title: "零一居",
 		imgurl: "https://media.cc01cc.cn/blog/avatar.webp",
 		desc: "探索 & 创造",
@@ -381,7 +357,7 @@ export const friendsData: FriendItem[] = [
 		tags: ["推荐链接"],
 	},
 	{
-		id: 47,
+		id: 44,
 		title: "深柠网络",
 		imgurl: "https://avatars.githubusercontent.com/u/165035744?v=4&s=200",
 		desc: "深柠的个人站 技术心得 日常生活......",
@@ -389,7 +365,7 @@ export const friendsData: FriendItem[] = [
 		tags: ["推荐链接"],
 	},
 	{
-		id: 48,
+		id: 45,
 		title: "250king",
 		imgurl: "https://q1.qlogo.cn/g?b=qq&nk=2789260300&s=0",
 		desc: "耀の小站",
@@ -397,15 +373,7 @@ export const friendsData: FriendItem[] = [
 		tags: ["等待添加"],
 	},
 	{
-		id: 49,
-		title: "心象蜃気楼",
-		imgurl: "https://oss.yayoi.love/blog/image/20260904212338976.png",
-		desc: "心を透写した世界で、僕らは居場所を探した",
-		siteurl: "https://blog.yayoi.love/",
-		tags: ["等待添加"],
-	},
-	{
-		id: 50,
+		id: 46,
 		title: "Fuhao574",
 		imgurl: "https://avatars.githubusercontent.com/u/220566987?v=4",
 		desc: "这个世界不缺大人",
@@ -413,11 +381,28 @@ export const friendsData: FriendItem[] = [
 		tags: ["推荐链接"],
 	},
 	{
-		id: 51,
+		id: 47,
 		title: "梧桐雨の博客",
 		imgurl: "https://www.wutongyu.site/avatar.webp",
 		desc: "关于我的代码和生活",
 		siteurl: "https://www.wutongyu.site/",
+		tags: ["推荐链接"],
+	},
+	{
+		id: 48,
+		title: "Minedsa's blog",
+		imgurl:
+			"https://minedsa.cc/upload/u=2123397893,2805485934&fm=253&app=138&size=w931&n=0&f=JPEG&fmt=auto-bXAG.jpg",
+		desc: "不会敲代码的人",
+		siteurl: "https://minedsa.cc",
+		tags: ["推荐链接"],
+	},
+	{
+		id: 49,
+		title: "Soki Sugar Life",
+		imgurl: "https://cdn.jsdelivr.net/gh/SokiSama/picked@main/avatar.jpg",
+		desc: "月下彼岸花",
+		siteurl: "https://www.soki.moe/",
 		tags: ["推荐链接"],
 	},
 ];
