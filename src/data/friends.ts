@@ -405,6 +405,14 @@ export const friendsData: FriendItem[] = [
 		siteurl: "https://www.soki.moe/",
 		tags: ["推荐链接"],
 	},
+	{
+		id: 50,
+		title: "Alexander",
+		imgurl: "https://lanerc.me/avatar.png",
+		desc: "记录代码、折腾与生活",
+		siteurl: "https://lanerc.me",
+		tags: ["推荐链接"],
+	},
 ];
 
 // 获取所有友情链接数据
