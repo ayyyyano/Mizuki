@@ -128,106 +128,107 @@ import { LinkPreset } from "../types/config";
  */
 export const navBarConfig: NavBarConfig = {
 	links: [
-		// 预设链接：首页
 		LinkPreset.Home,
-		// 预设链接：归档
 		LinkPreset.Archive,
-
-		// 自定义一级下拉菜单示例：外部链接集合
+		// 支持自定义导航栏链接，支持多级菜单
 		{
-			name: "Links",
+			name: "链接",
 			url: "/links/",
 			icon: "material-symbols:link",
 			children: [
 				{
-					name: "GitHub",
-					url: "https://github.com/LyraVoid/Mizuki",
-					external: true, // 外部链接，新标签页打开
-					icon: "fa7-brands:github",
+					name: "提问箱",
+					url: "https://askbox.nekro.top/",
+					external: true,
+					icon: "mingcute:question-fill",
 				},
 				{
-					name: "Bilibili",
-					url: "https://space.bilibili.com/701864046",
+					name: "似了吗",
+					url: "https://alive.nekro.top/",
 					external: true,
-					icon: "fa7-brands:bilibili",
+					icon: "mingcute:eye-fill",
 				},
 				{
-					name: "Gitee",
-					url: "https://gitee.com/matsuzakayuki/Mizuki",
+					name: "Google 镜像",
+					url: "https://space.bilibili.com/501335897",
 					external: true,
-					icon: "mdi:git",
+					icon: "mingcute:google-fill",
+				},
+				{
+					name: "GitHub 加速",
+					url: "https://gh.nekro.top/",
+					external: true,
+					icon: "mingcute:github-fill",
+				},
+				{
+					name: "服务状态监测",
+					url: "https://status.nekro.top/",
+					external: true,
+					icon: "mingcute:server-fill",
 				},
 			],
 		},
-
-		// 自定义一级下拉菜单示例：个人内容页面
 		{
-			name: "My",
+			name: "我的",
 			url: "/content/",
 			icon: "material-symbols:person",
 			children: [
 				{
-					name: "Anime",
+					name: "追番",
 					url: "/anime/",
 					icon: "material-symbols:movie",
 				},
 				{
-					name: "Diary",
+					name: "日记",
 					url: "/diary/",
 					icon: "material-symbols:book",
 				},
 				{
-					name: "Gallery",
+					name: "相册",
 					url: "/albums/",
 					icon: "material-symbols:photo-library",
 				},
 				{
-					name: "Devices",
+					name: "设备",
 					url: "/devices/",
 					icon: "material-symbols:devices",
-					external: false, // 内部链接，当前页导航
+					external: false,
 				},
-			],
-		},
-
-		// 自定义一级下拉菜单示例：关于相关
-		{
-			name: "About",
-			url: "/content/",
-			icon: "material-symbols:info",
-			children: [
 				{
-					name: "About",
+					name: "关于我",
 					url: "/about/",
-					icon: "material-symbols:person",
+					icon: "material-symbols:info",
 				},
 				{
-					name: "Friends",
-					url: "/friends/",
-					icon: "material-symbols:group",
+					name: "支持我",
+					url: "https://pay.nekro.top/",
+					icon: "material-symbols:favorite",
+					external: true,
 				},
 			],
 		},
-
-		// 自定义一级下拉菜单示例：其他页面
 		{
-			name: "Others",
-			url: "#", // "#" 作为占位 URL，点击不会跳转
+			name: "其他",
+			url: "#",
 			icon: "material-symbols:more-horiz",
 			children: [
 				{
-					name: "Projects",
+					name: "友链",
+					url: "/friends/",
+					icon: "material-symbols:group",
+				},
+				{
+					name: "项目",
 					url: "/projects/",
 					icon: "material-symbols:work",
 				},
 				{
-					name: "Skills",
+					name: "技能",
 					url: "/skills/",
 					icon: "material-symbols:psychology",
 				},
-				LinkPreset.AITools,
 				{
-					name: "Timeline",
+					name: "时间线",
 					url: "/timeline/",
 					icon: "material-symbols:timeline",
 				},
