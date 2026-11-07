@@ -1,49 +1,101 @@
+> 💡 特殊原因，不再公开敏感联系方式。＞﹏＜
 
-This website is built with the **Astro** framework using the [Mizuki](https://github.com/LyraVoid/Mizuki) theme.
+# 简述
 
-::github{repo="LyraVoid/Mizuki"}
+- 18 岁，准专科生。
+- INFP-T，精神不稳定，必然性边缘人。
+- 不善言辞，但想要认识更多朋友。
+- 互 fo 和扩列大欢迎。请找我聊天！
+- 喜欢一切可爱的事物。
 
-## 🌟 Theme Features
+# 爱好
 
-### 🎨 Design & User Experience
-- **Modern & Elegant Design** - Clean, minimalist interface with beautiful typography
-- **Fully Responsive** - Optimized for all devices from mobile to desktop
-- **Dark/Light Mode** - Automatic theme switching with smooth transitions
-- **Beautiful Typography** - Enhanced readability with JetBrains Mono font
-- **Smooth Animations** - Fluid page transitions and interactive elements
+> 我希望我能用我拥有的知识与技能，为我喜欢的事物做出一点微小的贡献。
 
-### 🔍 Content & Search
-- **Advanced Search** - Powered by [Pagefind](https://pagefind.app/) for fast, accurate results
-- **Enhanced Markdown** - Extended syntax with code highlighting and math support
-- **Interactive Table of Contents** - Auto-scroll navigation for long articles
-- **RSS Feed Generation** - Stay updated with automatic feed generation
-- **Reading Time Estimation** - Know how long articles take to read
-- **Post Categorization** - Organize content with tags and categories
+| 东方 Project | 音 MAD / YTPMV |
+| --- | --- |
+| VOCALOID | Project SEKAI |
 
+- 目前在玩啤酒烧烤和崩铁国服，想加好友的话欢迎联系我。
+- 不参与游戏圈节奏，不参与社区战争，此前的相关言论请全部无视。
+- 最爱的 VOCOLOID 曲目: 夏令时记录 (サマータイムレコード)。
+- 最爱的音 MAD 作品: 秘匿于尘世的余音 ~ Hidden Star in All Seasons。
+- 喜欢的 VOCALOID P 主: じん、n-buna、Orangestar、YurryCanon、sasakure.UK......
+- 一直以来的偶像 (?): 不人气的秋穰子、心水湛清、艾了个拉、凉郁、晴猫......
 
+# 技能
 
-### 📱 Special Pages
-- **Anime Tracking Page** - Track your anime watching progress with ratings
-- **Friends Links Page** - Showcase friend websites with beautiful cards
-- **Diary/Moments Page** - Share life moments like social media posts
-- **Archive Page** - Organized timeline view of all posts
-- **About Page** - Customizable personal introduction (this page!)
+| Android 刷机 | Linux |
+| --- | --- |
+| 前端 (学习中) | - |
 
-### 🛠 Technical Features
-- **Enhanced Code Blocks** - Powered by [Expressive Code](https://expressive-code.com/)
-- **Math Support** - LaTeX rendering with KaTeX for mathematical expressions
-- **Image Optimization** - PhotoSwipe gallery with lazy loading
-- **SEO Optimized** - Built-in sitemap and meta tags for better search visibility
-- **Performance Optimized** - Fast loading with caching and optimization
-- **Comment System Ready** - Integration support for Twikoo comments
+- 数码发烧友，谷粉，给十多台安卓设备刷入过 GSI / 第三方 ROM ，可以解答一些刷机基本问题。
+- 研究过一段时间 HTML 和 CSS ，但一直没有产出什么有价值的作品，已基本丧失代码能力。
 
-### 🎯 Advanced Markdown Features
-- **Callouts & Admonitions** - Beautiful info boxes with `> [!NOTE]`, `> [!TIP]`, `> [!WARNING]`
-- **Mathematical Equations** - Write LaTeX math with `$inline$` and `$$block$$` syntax
-- **GitHub Cards** - Embed repository cards with `::github{repo="user/repo"}`
-- **Syntax Highlighting** - Advanced code highlighting with line numbers
-- **Copy Code Buttons** - Easy code copying functionality
+# 项目
 
----
+> 👤 前往我的 GitHub 页面了解更多。o((>ω< ))o
 
-*Built with ❤️ using Astro and inspired by modern web design principles.*
+[ayyyyano](https://github.com/ayyyyano)
+
+# 设备
+
+> ✅ 仅列举目前主要使用的。(*^_^*)
+
+请前往 [设备](/devices/) 页面查看我的常用设备。
+或前往 [似了吗?](https://alive.nekro.top/) 查看我的设备状态。
+
+# 联系
+
+## Email
+
+> ✉️ 不出意外的话，我会在48小时内回复你的邮件 (骚扰、垃圾内容除外)。(~~￣▽￣)~~  
+> 若未能收到回复，请尝试更换邮箱 (尽量不使用国内邮箱)。
+
+**主要** [自建](mailto:i@nekro.top)
+
+**备用** [Outlook](mailto:ayyyyano@outlook.com)
+
+## Telegram
+
+> 🗨️ 不出意外的话，我会在48小时内回复你的消息。(●ˇ∀ˇ●)
+
+[Telegram](https://t.me/ayyyyano)
+
+## 其它平台
+
+### Twitter (X)
+
+> ❤️ 主要活跃地。欢迎互 fo 或者私信。(｡･∀･)ﾉﾞ
+
+[@pavlova233](https://x.com/pavlova233)
+
+### Bluesky
+
+> 🚀 我的逃生舱。可能随时会启用。( ⓛ ω ⓛ *)
+
+[@nekro.top](https://bsky.app/profile/nekro.top)
+
+### Bilibili
+
+> 📫 次要活跃地。有私信会随缘回复。(～﹃～)~zZ
+
+[Nekropolis](https://space.bilibili.com/501335897)
+
+### CoolApk
+
+> ⚠️ 仅用于发布部分文章。(•_•)
+
+[生きる](https://www.coolapk.com/u/2529353)
+
+# 支持我的创作
+
+> 🫰 如果本站内容对你有所帮助，欢迎自愿支持我的创作。
+
+Nekro's Blog 目前的公开文章均可免费阅读，支持行为是对已经提供内容的自愿 Tip，不是购买商品或付费文章，也不会解锁额外内容。
+
+如果你愿意，可以前往 [Support Nekro](https://pay.nekro.top/) 查看可用的支持方式。
+
+你的支持将帮助我承担博客域名和基础设施费用，维护站点与开源项目，并继续整理和分享免费的技术内容。
+
+当然，正常阅读文章、反馈错误、参与讨论或分享内容，同样是对博客的支持。

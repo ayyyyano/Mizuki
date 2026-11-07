@@ -21,88 +21,44 @@ export interface Project {
 
 export const projectsData: Project[] = [
 	{
-		id: "mizuki",
-		title: "Mizuki",
+		id: "askbox",
+		title: "Personal-AskBox",
 		description:
-			"A next-gen Material Design 3 blog theme built with Astro, featuring i18n, dark mode, and responsive design.",
-		image: "/assets/projects/mizuki.webp",
+			"An anonymous Q&A site that can be quickly deployed to Cloudflare Workers.",
+		image: "/assets/projects/askbox.png",
 		category: "web",
-		techStack: ["Astro", "TypeScript", "Tailwind CSS", "Svelte"],
+		techStack: ["Next.js", "TypeScript"],
 		status: "completed",
-		sourceCode: "https://github.com/LyraVoid/Mizuki",
-		visitUrl: "https://mizuki.mysqil.com",
-		startDate: "2024-01-01",
-		endDate: "2024-06-01",
+		sourceCode: "https://github.com/ayyyyano/Personal-AskBox",
+		visitUrl: "https://askbox.nekro.top",
+		startDate: "2026-06-20",
+		endDate: "2026-08-31",
 		featured: true,
-		tags: ["Blog", "Theme", "Open Source"],
+		tags: ["AskBox", "Vibe Coding", "Open Source"],
 	},
 	{
-		id: "folkpatch",
-		title: "FolkPatch",
-		description:
-			"A kernel-level ROOT solution based on KernelPatch, with polished UI, APM module system, and KPM kernel module support.",
-		image: "/assets/projects/folkpatch.webp",
-		category: "mobile",
-		techStack: ["Kotlin", "Rust", "C++", "Java"],
-		status: "in-progress",
-		sourceCode: "https://github.com/LyraVoid/FolkPatch",
-		visitUrl: "https://fp.mysqil.com",
-		startDate: "2024-03-01",
+		id: "dsl",
+		title: "DMS-SPlayer-Lyrics",
+		description: "A real-time lyrics plugin for DankMaterialShell (DMS).",
+		image: "/assets/projects/dsl.png",
+		category: "desktop",
+		techStack: ["QML", "Python"],
+		status: "completed",
+		sourceCode: "https://github.com/ayyyyano/DMS-SPlayer-Lyrics",
+		visitUrl: "https://github.com/ayyyyano/DMS-SPlayer-Lyrics",
+		startDate: "2026-08-05",
+		endDate: "2026-08-07",
 		featured: true,
-		tags: ["Android", "Root", "Kernel"],
-	},
-	{
-		id: "folktool",
-		title: "FolkTool",
-		description:
-			"A fast ROOT flashing tool for FolkPatch with a graphical interface and automated operations, simplifying the complex flashing process.",
-		image: "",
-		category: "desktop",
-		techStack: ["Flutter", "Dart", "C++", "CMake"],
-		status: "completed",
-		sourceCode: "https://github.com/LyraVoid/FolkTool",
-		startDate: "2026-02-01",
-		endDate: "2026-02-28",
-		tags: ["Android", "Tool", "Desktop"],
-		showImage: false,
-	},
-	{
-		id: "folkadb",
-		title: "FolkADB",
-		description:
-			"A portable ADB/Fastboot tool written in C, featuring interactive CLI, Tab completion, drag-and-drop module installation, and Shizuku activation.",
-		image: "",
-		category: "desktop",
-		techStack: ["C"],
-		status: "completed",
-		sourceCode: "https://github.com/LyraVoid/FolkADB",
-		startDate: "2025-06-01",
-		endDate: "2026-01-01",
-		tags: ["Android", "ADB", "CLI"],
-		showImage: false,
-	},
-	{
-		id: "folksplash",
-		title: "FolkSplash",
-		description:
-			"A web-based splash.img visualizer for OPPO/Realme/OnePlus devices, supporting unpack, preview, replace, and repack.",
-		image: "",
-		category: "web",
-		techStack: ["React", "TypeScript", "Vite", "Material-UI", "Zustand"],
-		status: "completed",
-		sourceCode: "https://github.com/LyraVoid/FolkSplash",
-		visitUrl: "https://splash.mysqil.com",
-		startDate: "2025-09-01",
-		endDate: "2025-10-01",
-		tags: ["Android", "Tool", "Frontend"],
-		showImage: false,
+		tags: ["DankMaterialShell", "Vibe Coding", "Open Source"],
 	},
 ];
 
 // Get project statistics
 export const getProjectStats = () => {
 	const total = projectsData.length;
-	const completed = projectsData.filter((p) => p.status === "completed").length;
+	const completed = projectsData.filter(
+		(p) => p.status === "completed",
+	).length;
 	const inProgress = projectsData.filter(
 		(p) => p.status === "in-progress",
 	).length;
