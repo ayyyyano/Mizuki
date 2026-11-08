@@ -14,14 +14,18 @@ const modelConfigs = modelPaths.map((m) =>
 
 const position = config.position === "right" ? "bottom-right" : "bottom-left";
 
+const tipsDisabled = config.tips === false;
 const tipsData: Record<string, unknown> = {};
-if (config.tips) {
+if (config.tips && typeof config.tips === "object") {
 	if (config.tips.welcomeMessage)
 		tipsData.welcomeMessage = config.tips.welcomeMessage;
 	if (config.tips.messages) tipsData.messages = config.tips.messages;
 	if (config.tips.duration) tipsData.duration = config.tips.duration;
 	if (config.tips.interval) tipsData.interval = config.tips.interval;
-} else if (config.dialog?.welcome || config.dialog?.touch) {
+} else if (
+	!tipsDisabled &&
+	(config.dialog?.welcome || config.dialog?.touch)
+) {
 	const welcome = config.dialog.welcome;
 	const touch = config.dialog.touch;
 	if (welcome)
@@ -49,9 +53,11 @@ if (config.menus?.items && config.menus.items.length > 0) {
 	};
 }
 
-if (Object.keys(tipsData).length > 0) {
+if (tipsDisabled || Object.keys(tipsData).length > 0) {
 	if (!Array.isArray(widgetConfig.model)) {
-		(widgetConfig.model as Record<string, unknown>).tips = tipsData;
+		(widgetConfig.model as Record<string, unknown>).tips = tipsDisabled
+			? false
+			: tipsData;
 	}
 }
 

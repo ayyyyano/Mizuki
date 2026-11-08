@@ -532,12 +532,15 @@ export interface PioConfig {
 			text?: string; // 自定义文本
 		}[];
 	};
-	tips?: {
-		welcomeMessage?: string[]; // 欢迎语
-		messages?: string[]; // 循环提示内容
-		duration?: number; // 每条 tips 展示时长（ms）
-		interval?: number; // tips 循环间隔（ms）
-	};
+	// tips 为 false 时彻底禁用看板娘提示气泡（不显示欢迎语与点触/循环提示）
+	tips?:
+		| false
+		| {
+				welcomeMessage?: string[]; // 欢迎语
+				messages?: string[]; // 循环提示内容
+				duration?: number; // 每条 tips 展示时长（ms）
+				interval?: number; // tips 循环间隔（ms）
+		  };
 	menus?: {
 		items?: {
 			icon?: string; // Iconify 图标名称
