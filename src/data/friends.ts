@@ -15,7 +15,8 @@ export const friendsData: FriendItem[] = [
 	{
 		id: 1,
 		title: "Smirnova Oyama",
-		imgurl: "https://mahiro.uk/content/nekoxun.jpg?t=583a0fbd-a377-83a0-a1ac-8100ac653245",
+		imgurl:
+			"https://mahiro.uk/content/nekoxun.jpg?t=583a0fbd-a377-83a0-a1ac-8100ac653245",
 		desc: "一个本科计算机学生",
 		siteurl: "https://mahiro.uk/",
 		tags: ["推荐链接"],
@@ -23,7 +24,8 @@ export const friendsData: FriendItem[] = [
 	{
 		id: 2,
 		title: "雾小蒜の小窝",
-		imgurl: "https://ciallovo.top/assets/pic/icon.png?t=351a0fbd-a377-80af-82d9-ec983d08a51e",
+		imgurl:
+			"https://ciallovo.top/assets/pic/icon.png?t=351a0fbd-a377-80af-82d9-ec983d08a51e",
 		desc: "共寻繁星，逐光前行！",
 		siteurl: "https://ciallovo.top/",
 		tags: ["推荐链接", "好朋友们"],
@@ -31,7 +33,8 @@ export const friendsData: FriendItem[] = [
 	{
 		id: 3,
 		title: "Catarium",
-		imgurl: "https://cdn.jsdelivr.net/gh/Eofs791/catpic@main/img/avatar.ico?t=353a0fbd-a377-806c-8b63-ca34292114ee",
+		imgurl:
+			"https://cdn.jsdelivr.net/gh/Eofs791/catpic@main/img/avatar.ico?t=353a0fbd-a377-806c-8b63-ca34292114ee",
 		desc: "见崎的猫箱",
 		siteurl: "https://catarium.me/",
 		tags: ["推荐链接", "好朋友们"],
@@ -39,7 +42,8 @@ export const friendsData: FriendItem[] = [
 	{
 		id: 4,
 		title: "Bingxin Home",
-		imgurl: "https://blog.byteloid.one/img/march7th.webp?t=357a0fbd-a377-8064-ba90-c3b8dae5139a",
+		imgurl:
+			"https://blog.byteloid.one/img/march7th.webp?t=357a0fbd-a377-8064-ba90-c3b8dae5139a",
 		desc: "相聚于此乐土。",
 		siteurl: "https://byteloid.one/",
 		tags: ["推荐链接"],
@@ -55,7 +59,8 @@ export const friendsData: FriendItem[] = [
 	{
 		id: 6,
 		title: "Amicors",
-		imgurl: "https://amicors.cc/_astro/avatar.WKle1sZJ_22GWqu.webp?t=362a0fbd-a377-80e2-9c31-c1f83cb0d9d2",
+		imgurl:
+			"https://amicors.cc/_astro/avatar.WKle1sZJ_22GWqu.webp?t=362a0fbd-a377-80e2-9c31-c1f83cb0d9d2",
 		desc: "喵喵喵喵喵?",
 		siteurl: "https://amicors.cc/",
 		tags: ["推荐链接"],
@@ -79,7 +84,8 @@ export const friendsData: FriendItem[] = [
 	{
 		id: 9,
 		title: "Clover Yan 的小屋",
-		imgurl: "https://www.khyan.top/favicon.png?t=353a0fbd-a377-8080-b5de-c752417ff6ae",
+		imgurl:
+			"https://www.khyan.top/favicon.png?t=353a0fbd-a377-8080-b5de-c752417ff6ae",
 		desc: "生命是灰色的，理论之树常青。",
 		siteurl: "https://cloveryan.com/",
 		tags: ["推荐链接"],
@@ -87,7 +93,8 @@ export const friendsData: FriendItem[] = [
 	{
 		id: 10,
 		title: "ALoneSKy 的小窝",
-		imgurl: "https://alonesky.moe/avatar.jpg?t=369a0fbd-a377-80e5-827d-e7402c3bb297",
+		imgurl:
+			"https://alonesky.moe/avatar.jpg?t=369a0fbd-a377-80e5-827d-e7402c3bb297",
 		desc: "晚安 明天不会更好",
 		siteurl: "https://alonesky.moe/",
 		tags: ["推荐链接"],
@@ -95,7 +102,8 @@ export const friendsData: FriendItem[] = [
 	{
 		id: 11,
 		title: "Kuriyona's Space",
-		imgurl: "https://r2.kuriyona.com/img/avatar/Avatar_256.png?t=370a0fbd-a377-8082-80a0-c1c2cf9fccaa",
+		imgurl:
+			"https://r2.kuriyona.com/img/avatar/Avatar_256.png?t=370a0fbd-a377-8082-80a0-c1c2cf9fccaa",
 		desc: "「一个可爱的女孩子，18 岁中国准大学生，宅，亚二次元，MtF 和兴趣使然的开发者」",
 		siteurl: "https://kuriyona.com/",
 		tags: ["推荐链接"],
@@ -167,7 +175,8 @@ export const friendsData: FriendItem[] = [
 	{
 		id: 20,
 		title: "XFJの主页",
-		imgurl: "https://cdn.jsdelivr.net/gh/XFJ-YYQF/Picture@main/img/home192.webp",
+		imgurl:
+			"https://cdn.jsdelivr.net/gh/XFJ-YYQF/Picture@main/img/home192.webp",
 		desc: "我永远喜欢哈次捏米库！！！",
 		siteurl: "https://sakurasnow.cn/",
 		tags: ["推荐链接"],
@@ -199,7 +208,8 @@ export const friendsData: FriendItem[] = [
 	{
 		id: 24,
 		title: "Chanke's Blog",
-		imgurl: "https://avatars.githubusercontent.com/u/156302052?v=4&t=353a0fbd-a377-800e-be61-ffe39d927abb",
+		imgurl:
+			"https://avatars.githubusercontent.com/u/156302052?v=4&t=353a0fbd-a377-800e-be61-ffe39d927abb",
 		desc: "远来的朋友，愿你幸福。",
 		siteurl: "https://chanke-blog.pages.dev/",
 		tags: ["单向链接"],
@@ -207,7 +217,8 @@ export const friendsData: FriendItem[] = [
 	{
 		id: 25,
 		title: "Aira",
-		imgurl: "https://aira.cafe/_vercel/image?url=%2Fimages%2Favatar.webp&w=640&q=100&t=354a0fbd-a377-802a-9be3-c4e0e67459f1",
+		imgurl:
+			"https://aira.cafe/_vercel/image?url=%2Fimages%2Favatar.webp&w=640&q=100&t=354a0fbd-a377-802a-9be3-c4e0e67459f1",
 		desc: "Kind and Kawaii, Forever!~",
 		siteurl: "https://aira.cafe/",
 		tags: ["单向链接"],
@@ -215,7 +226,8 @@ export const friendsData: FriendItem[] = [
 	{
 		id: 26,
 		title: "Ariasakaの小窝",
-		imgurl: "https://img.0v0.my/2024/12/05/67517bcf104da.png?t=353a0fbd-a377-809a-93c8-d6530fd01c0f",
+		imgurl:
+			"https://img.0v0.my/2024/12/05/67517bcf104da.png?t=353a0fbd-a377-809a-93c8-d6530fd01c0f",
 		desc: "人有悲欢离合，月有阴晴圆缺。",
 		siteurl: "https://blog.yaria.top/",
 		tags: ["等待添加"],
@@ -279,7 +291,8 @@ export const friendsData: FriendItem[] = [
 	{
 		id: 34,
 		title: "数字田园的悠然漫步",
-		imgurl: "https://blog.gardenwalk.moe/wp-content/uploads/1737602734-icon.png",
+		imgurl:
+			"https://blog.gardenwalk.moe/wp-content/uploads/1737602734-icon.png",
 		desc: "采菊东篱下，悠然见南山。",
 		siteurl: "https://blog.gardenwalk.moe/",
 		tags: ["推荐链接"],
@@ -343,7 +356,8 @@ export const friendsData: FriendItem[] = [
 	{
 		id: 42,
 		title: "aoi的菜谱小站",
-		imgurl: "https://secure.gravatar.com/avatar/66343ba343f045271824d17bcb7f666c",
+		imgurl:
+			"https://secure.gravatar.com/avatar/66343ba343f045271824d17bcb7f666c",
 		desc: "探索赛博烹饪里的魔法与艺术",
 		siteurl: "https://www.aoi-recipes.site/",
 		tags: ["推荐链接"],

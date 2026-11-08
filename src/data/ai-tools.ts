@@ -19,7 +19,7 @@ export type LocaleString = Partial<
 >;
 
 export function getLocaleString(value: LocaleString, lang: string): string {
-	return value[lang as keyof LocaleString] ?? value["en"] ?? "";
+	return value[lang as keyof LocaleString] ?? value.en ?? "";
 }
 
 export interface AITool {

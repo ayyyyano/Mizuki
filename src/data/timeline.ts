@@ -9,10 +9,7 @@ export const timelineData: TimelineItem[] = [
 		type: "work",
 		startDate: "2024-08-09",
 		skills: ["HTML", "Github Pages"],
-		achievements: [
-			"个人博客恢复更新",
-			"部分文章被转载到国内平台 获得较高浏览",
-		],
+		achievements: ["个人博客恢复更新", "部分文章被转载到国内平台 获得较高浏览"],
 		icon: "mingcute:news-line",
 		color: "#ccaa88",
 	},

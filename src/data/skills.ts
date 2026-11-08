@@ -46,8 +46,7 @@ export const skillsData: Skill[] = [
 	{
 		id: "nuxtjs",
 		name: "Nuxt.js",
-		description:
-			"The full-stack Vue framework.",
+		description: "The full-stack Vue framework.",
 		icon: "simple-icons:nuxt",
 		category: "frontend",
 		level: "beginner",
