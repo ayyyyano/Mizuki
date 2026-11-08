@@ -502,9 +502,17 @@ export interface FullscreenWallpaperConfig {
 /**
  * Pio 看板娘配置
  */
+// 单个看板娘模型配置：字符串为模型路径，对象可携带渲染微调参数
+export interface PioModelConfig {
+	path: string; // 模型文件路径（支持 .model.json 和 .model3.json）
+	scale?: number; // 相对自动适配结果的缩放倍率（1 为默认）
+	position?: [number, number]; // 视口逻辑坐标偏移
+	volume?: number; // 音量（若模型带声音）
+}
+
 export interface PioConfig {
 	enable: boolean; // 是否启用看板娘
-	models?: string[]; // 模型文件路径数组（支持 .model.json 和 .model3.json）
+	models?: (string | PioModelConfig)[]; // 模型路径或模型配置对象数组
 	position?: "left" | "right"; // 看板娘位置
 	width?: number; // 看板娘宽度
 	height?: number; // 看板娘高度
