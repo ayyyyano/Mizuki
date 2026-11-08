@@ -1,0 +1,68 @@
+---
+/**
+ * 个人资料卡社交图标组件：构建期内联优先，运行时回退兜底。
+ *
+ * 渲染链（按优先级）：
+ * 1. 已安装 @iconify-json/<prefix> 且图标存在 → 构建时完整内联 SVG。
+ *    原因：astro-icon 的 sprite 模式把 <symbol> 埋进 DOM 靠前的实例，
+ *    若该实例在 display:none 容器（如移动端抽屉）中，SMIL 动画不会运行，
+ *    所有 <use> 克隆停留在初始状态，带初始 stroke-dashoffset 的笔画
+ *    （line-md 细节线条）将永远不可见。内联后每个实例独立，动画正常。
+ * 2. 集合未安装 / 图标名未知 / 配置了其他任意集合 → 回退到原有运行时
+ *    渲染（atoms/Icon 的 <iconify-icon> web component + CDN 动态加载），
+ *    保留"任意 Iconify 图标名均可配置"的自定义与替换能力。
+ */
+import { createRequire } from "node:module";
+import Icon from "./Icon.astro";
+
+interface Props {
+	icon: string; // 完整图标名，如 "line-md:github"
+	class?: string;
+	loading?: string; // 透传给运行时回退的加载策略
+}
+
+const { icon, class: className = "", loading = "lazy" } = Astro.props;
+
+const separator = icon.indexOf(":");
+const prefix = separator >= 0 ? icon.slice(0, separator) : "";
+const name = separator >= 0 ? icon.slice(separator + 1) : icon;
+
+let body = "";
+let width = 24;
+let height = 24;
+if (prefix && name) {
+	try {
+		const require = createRequire(import.meta.url);
+		const data = require(`@iconify-json/${prefix}/icons.json`);
+		width = data.width ?? 24;
+		height = data.height ?? 24;
+		const entry =
+			data.icons?.[name] ??
+			(data.aliases?.[name]?.parent
+				? data.icons?.[data.aliases[name].parent]
+				: undefined);
+		body = entry?.body ?? "";
+	} catch {
+		// 集合未安装：走运行时回退
+	}
+}
+
+const inlined = body !== "";
+---
+
+{
+	inlined ? (
+		<svg
+			width="1em"
+			height="1em"
+			viewBox={`0 0 ${width} ${height}`}
+			class={className}
+			data-icon={icon}
+			aria-hidden="true"
+		>
+			<Fragment set:html={body} />
+		</svg>
+	) : (
+		<Icon icon={icon} class={className} loading={loading} />
+	)
+}

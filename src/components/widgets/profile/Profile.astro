@@ -4,6 +4,7 @@ import { profileConfig } from "../../../config";
 import I18nKey from "../../../i18n/i18nKey";
 import { i18n } from "../../../i18n/translation";
 import { url } from "../../../utils/url-utils";
+import IconInline from "../../atoms/Icon/IconInline.astro";
 import Image from "../../atoms/Image/Image.astro";
 import TypewriterText from "../../atoms/typewriter-text/TypewriterText.astro";
 ---
@@ -61,15 +62,15 @@ import TypewriterText from "../../atoms/typewriter-text/TypewriterText.astro";
 			{
 				profileConfig.links.length > 1 &&
 					profileConfig.links.map((item) => (
-						<a
-							rel="me"
-							aria-label={item.name}
-							href={item.url}
-							target="_blank"
-							class="btn-regular rounded-lg h-10 w-10 active:scale-90"
-						>
-							<Icon name={item.icon} class="text-[1.5rem]" />
-						</a>
+							<a
+								rel="me"
+								aria-label={item.name}
+								href={item.url}
+								target="_blank"
+								class="btn-regular rounded-lg h-10 w-10 active:scale-90"
+							>
+								<IconInline icon={item.icon} class="text-[1.5rem]" />
+							</a>
 					))
 			}
 			{
@@ -81,10 +82,10 @@ import TypewriterText from "../../atoms/typewriter-text/TypewriterText.astro";
 						target="_blank"
 						class="btn-regular rounded-lg h-10 gap-2 px-3 font-bold active:scale-95"
 					>
-						<Icon
-							name={profileConfig.links[0].icon}
-							class="text-[1.5rem]"
-						/>
+							<IconInline
+								icon={profileConfig.links[0].icon}
+								class="text-[1.5rem]"
+							/>
 						{profileConfig.links[0].name}
 					</a>
 				)
