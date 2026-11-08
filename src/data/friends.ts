@@ -33,10 +33,9 @@ export const friendsData: FriendItem[] = [
 	{
 		id: 3,
 		title: "Catarium",
-		imgurl:
-			"https://cdn.jsdelivr.net/gh/Eofs791/catpic@main/img/avatar.ico?t=353a0fbd-a377-806c-8b63-ca34292114ee",
+		imgurl: "https://avatars.githubusercontent.com/u/91895588?s=460",
 		desc: "见崎的猫箱",
-		siteurl: "https://catarium.me/",
+		siteurl: "https://blog.saikai.moe/",
 		tags: ["推荐链接", "好朋友们"],
 	},
 	{
