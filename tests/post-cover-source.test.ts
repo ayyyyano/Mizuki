@@ -12,7 +12,7 @@ const repositoryRoot = path.resolve(
 	path.dirname(fileURLToPath(import.meta.url)),
 	"..",
 );
-const guidePath = path.join(repositoryRoot, "src/content/posts/guide/index.md");
+const guidePath = path.join(repositoryRoot, "tests/fixtures/guide/index.md");
 
 describe("shared post cover resolution", () => {
 	it("classifies local, public, and remote sources", () => {

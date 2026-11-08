@@ -287,14 +287,14 @@ describe("Markdown AST enhancements", () => {
 			children: [
 				{
 					type: "paragraph",
-					children: [{ type: "text", value: "[[guide]]" }],
+					children: [{ type: "text", value: "[[zoho-mail]]" }],
 				},
 				{
 					type: "paragraph",
 					children: [
 						{
 							type: "text",
-							value: "See [[guide|the guide]].",
+							value: "See [[zoho-mail|the zoho post]].",
 						},
 					],
 				},
@@ -303,7 +303,7 @@ describe("Markdown AST enhancements", () => {
 		await remarkWikiLink()(tree, {
 			path: fileURLToPath(
 				new URL(
-					"../src/content/posts/content-pipeline-fixture.mdx",
+					"../src/content/posts/wiki-link-context.mdx",
 					import.meta.url,
 				),
 			),
@@ -313,13 +313,16 @@ describe("Markdown AST enhancements", () => {
 		assert.equal(tree.children[0].children[0].data.hName, "span");
 		assert.equal(
 			tree.children[0].children[0].children[0].url,
-			"./guide/cover.webp",
+			"./zoho-mail/cover.png",
 		);
 		assert.equal(
 			tree.children[0].children[0].data.hProperties.dataNoEnhance,
 			true,
 		);
 		assert.equal(tree.children[1].children[1].type, "link");
-		assert.equal(tree.children[1].children[1].children[0].value, "the guide");
+		assert.equal(
+			tree.children[1].children[1].children[0].value,
+			"the zoho post",
+		);
 	});
 });

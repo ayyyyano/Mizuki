@@ -3,7 +3,7 @@ import { readFile } from "node:fs/promises";
 import { describe, it } from "node:test";
 
 const fixtureSource = await readFile(
-	new URL("../src/content/posts/content-pipeline-fixture.mdx", import.meta.url),
+	new URL("fixtures/content-pipeline-fixture.mdx", import.meta.url),
 	"utf8",
 );
 const rssSource = await readFile(
