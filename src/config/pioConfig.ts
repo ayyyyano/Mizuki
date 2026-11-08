@@ -3,7 +3,7 @@ import type { PioConfig } from "../types/config";
 // Pio 看板娘配置
 export const pioConfig: PioConfig = {
 	enable: true, // 启用看板娘
-	models: ["/pio/models/NOIR/noir.model3.json"], // 默认模型路径
+	models: ["/pio/models/airi/07airi_normal_3.0_f_t03.model3.json"], // 默认模型路径
 	position: "left", // 模型位置
 	width: 280, // 默认宽度
 	height: 250, // 默认高度
